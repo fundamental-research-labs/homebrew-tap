@@ -1,30 +1,30 @@
 class Sfae < Formula
   desc "Credential gateway for agents making authenticated API requests"
   homepage "https://sfae.io"
-  version "0.0.4"
+  version "0.0.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fundamental-research-labs/sfae/releases/download/v0.0.4/sfae-macos-arm64.tar.gz"
-      sha256 "244d3953d1e8ac8d243a8ed7dc8926ed3b27e01a42e947d881f1c96428682a97"
+      url "https://github.com/fundamental-research-labs/sfae/releases/download/v0.0.5/sfae-macos-arm64.tar.gz"
+      sha256 "995701e1e6235054df0d03d9f942e078af64fee14fb9e852359d315c52cba86a"
     end
 
     on_intel do
-      url "https://github.com/fundamental-research-labs/sfae/releases/download/v0.0.4/sfae-macos-x86_64.tar.gz"
-      sha256 "ddccbf2febb90b911ab21a36e2f8c8ec178ccf4b5224d425a6958fee80b4d598"
+      url "https://github.com/fundamental-research-labs/sfae/releases/download/v0.0.5/sfae-macos-x86_64.tar.gz"
+      sha256 "19f2ffb8875ad618553749221a94d1cffabca056039e0b1d1507931238e77f36"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fundamental-research-labs/sfae/releases/download/v0.0.4/sfae-linux-arm64.tar.gz"
-      sha256 "48acb508b1c7ef03b1948f91105b40c3b1e278d746b75b3eaf2c541d530a5f63"
+      url "https://github.com/fundamental-research-labs/sfae/releases/download/v0.0.5/sfae-linux-arm64.tar.gz"
+      sha256 "3e6366c2591c309bfed99957491a9355c586dc160dd7d5efca19f6712d596da5"
     end
 
     on_intel do
-      url "https://github.com/fundamental-research-labs/sfae/releases/download/v0.0.4/sfae-linux-x86_64.tar.gz"
-      sha256 "f9c1dfcdaba824e3db7bc52bd410c90871a241438b0e00e3e63a34368783ffc2"
+      url "https://github.com/fundamental-research-labs/sfae/releases/download/v0.0.5/sfae-linux-x86_64.tar.gz"
+      sha256 "fe05b0de2c85b6fc9bf3f25eda3685bfa54dc99128c6d79c26c02b9ebc58de90"
     end
   end
 
